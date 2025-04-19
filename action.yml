@@ -1,6 +1,6 @@
-name: 'Kicad PDF - denysvitali fork'
+name: 'Kicad PDF'
 description: 'Generates a PDF for specified Kicad files'
-author: 'Emily McLean & Denys Vitali'
+author: 'Emily McLean'
 inputs:
   input-files:
     description: 'The Kicad files to process'
@@ -23,7 +23,7 @@ inputs:
     default: ''
 runs:
   using: 'docker'
-  image: 'docker://ghcr.io/denysvitali/kicad-pdf:9.0.1'
+  image: 'docker://ghcr.io/denysvitali/kicad-pdf:9.0.1-1'
   args:
     - ${{ inputs.input-files }}
     - ${{ inputs.output-file }}
