@@ -1,6 +1,6 @@
-name: 'Kicad PDF'
+name: 'Kicad PDF - denysvitali fork'
 description: 'Generates a PDF for specified Kicad files'
-author: 'Emily McLean'
+author: 'Emily McLean & Denys Vitali'
 inputs:
   input-files:
     description: 'The Kicad files to process'
